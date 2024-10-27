@@ -36,15 +36,17 @@ This project is a YouTube Video Summarizer and Comment Sentiment Analyzer built 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Piyusharora04/YT-Video-summarizer-and-Comment-Analyzer.git
-2. Install dependencies:
+2. **Model Download**:
+   - Due to file size constraints, the model file (model.h5) is hosted on Google Drive. You can download it [here](https://drive.google.com/drive/folders/1ywtPTyhhMRKBXxIVJNL_p8BFbk8D3czT?usp=sharing).
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3. Add API Keys:
+4. Add API Keys:
   In the Streamlit secrets configuration, add your API keys
    - [secrets]
      - YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
      - COHERE_API_KEY = "YOUR_COHERE_API_KEY"
-4. Run the Application:
+5. Run the Application:
    ```bash
    streamlit run app.py
 
@@ -77,8 +79,6 @@ This project is a YouTube Video Summarizer and Comment Sentiment Analyzer built 
 ## 📊 Model Information
 - Summarization: Utilizes Cohere’s NLP model via API for accurate summarization.
 - Sentiment Analysis: Uses a pre-trained BERT model to classify comments into sentiment categories.
-* Note: Due to file size constraints, the model file (model.h5) is hosted on Google Drive. You can download it [here](https://drive.google.com/drive/folders/1ywtPTyhhMRKBXxIVJNL_p8BFbk8D3czT?usp=sharing).
-
 ---
 
 ## 🔮 Future Enhancements
