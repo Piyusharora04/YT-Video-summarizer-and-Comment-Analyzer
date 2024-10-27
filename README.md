@@ -45,6 +45,7 @@ This project is a YouTube Video Summarizer and Comment Sentiment Analyzer built 
     *YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
     *COHERE_API_KEY = "YOUR_COHERE_API_KEY"
 4. Run the Application:
+   ```bash
    streamlit run app.py
 
 ---
