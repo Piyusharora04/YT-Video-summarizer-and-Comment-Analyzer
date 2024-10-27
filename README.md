@@ -77,7 +77,7 @@ This project is a YouTube Video Summarizer and Comment Sentiment Analyzer built 
 ## 📊 Model Information
 - Summarization: Utilizes Cohere’s NLP model via API for accurate summarization.
 - Sentiment Analysis: Uses a pre-trained BERT model to classify comments into sentiment categories.
-* Note: Due to file size constraints, the model file (model.h5) is hosted on Google Drive. You can download it [here](https://drive.google.com/uc?export=view&id=1ywtPTyhhMRKBXxIVJNL_p8BFbk8D3czT).
+* Note: Due to file size constraints, the model file (model.h5) is hosted on Google Drive. You can download it [here](https://drive.google.com/drive/folders/1ywtPTyhhMRKBXxIVJNL_p8BFbk8D3czT?usp=sharing).
 
 ---
 
