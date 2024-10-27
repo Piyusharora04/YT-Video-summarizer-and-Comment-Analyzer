@@ -35,15 +35,15 @@ This project is a YouTube Video Summarizer and Comment Sentiment Analyzer built 
 ### 🛠Steps
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/YouTube-Video-Summarizer.git
-   cd YouTube-Video-Summarizer
+   git clone https://github.com/Piyusharora04/YT-Video-summarizer-and-Comment-Analyzer.git
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 3. Add API Keys:
   In the Streamlit secrets configuration, add your API keys
-   *[secrets]
-    *YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
-    *COHERE_API_KEY = "YOUR_COHERE_API_KEY"
+   - [secrets]
+     - YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY"
+     - COHERE_API_KEY = "YOUR_COHERE_API_KEY"
 4. Run the Application:
    ```bash
    streamlit run app.py
