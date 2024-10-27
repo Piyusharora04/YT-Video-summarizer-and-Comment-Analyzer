@@ -18,10 +18,10 @@ This project is a YouTube Video Summarizer and Comment Sentiment Analyzer built 
 ---
 
 ## Project Structure
-📂 YouTube-Video-Summarizer
-📄 app.py # Main application file 
-📄 requirements.txt # Project dependencies 
-📄 README.md # Project documentation
+- 📂 YouTube-Video-Summarizer
+- 📄 app.py # Main application file 
+- 📄 requirements.txt # Project dependencies 
+- 📄 README.md # Project documentation
 
 ---
 
